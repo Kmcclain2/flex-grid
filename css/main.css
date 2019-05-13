@@ -99,6 +99,8 @@ textarea {
 html {
   background-color: #fff;
   height: 100%;
+  background: url(../img/gradient.jpg);
+  background-size: cover;
 }
 
 body {
@@ -106,13 +108,33 @@ body {
   padding: 2em;
   font-size: 1.25em;
   height: 100%;
+
 }
+
+.header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  align-items: center;
+  width: 100%;
+  height: 200px;
+}
+
+.intro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100px;
+}
+
 
 .wrapper {
   /*add display:flex and set justify-content to space-between*/
   font-weight: 700;
   display: flex;
 justify-content: space-between;
+flex-flow: row wrap;
 
 }
 
@@ -121,20 +143,21 @@ justify-content: space-between;
   color: #258e84;
   line-height: 1.2em;
   font-size: 1.2em;
-  background-color: #fff;
+
   width: 30%;
-  height: 250px;
+  height: 200px;
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: left;
-  padding: 20px;
+
 
 }
 
 .div-2 {
   border-left: 1px solid gray;
   border-right: 1px solid gray;
+  padding-left: 30px;
 }
 
 
